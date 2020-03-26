@@ -1,0 +1,113 @@
+.panel {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 3px;
+    padding: 30px 20px;
+    margin: 150px auto 0px;
+    background-color: #d983a6;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    color:rgba(255,255,255,0.75);
+    font: caption;
+    font-weight: 100;
+}
+
+.welcome {
+    text-align: center;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.logo path {
+    pointer-events: none;
+    fill: none;
+    stroke-linecap: round;
+    stroke-width: 7;
+    stroke: #fff
+}
+
+
+.description {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+}
+.cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+}
+@media (max-width: 768px){
+    .row{
+        flex-wrap:wrap;
+    }
+}
+
+.quote{
+    color:#777;
+    font-weight:300;
+    padding:10px;
+    box-shadow:-5px 0 0 0 #ccc;
+    font-style:italic;
+    margin:20px 30px;
+}
+#iub7ap{
+    height:350px;
+}
+.fcbk {
+    display: inline-block;
+    background: url('../img/facebook.png') no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.twitter {
+    display: inline-block;
+    background: url('../img/twitter.png') no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.insta {
+    display: inline-block;
+    background: url('../img/insta.png') no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.linkedin {
+    display: inline-block;
+    background: url('../img/linkedin.png') no-repeat center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+
